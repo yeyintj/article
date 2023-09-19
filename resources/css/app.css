@@ -1,0 +1,46 @@
+/* btn */
+.botb {
+    border: 1px solid #f0f0ed;
+}
+.boty {
+    border: 1px solid #6d98f3;
+    transition: .5s;
+}
+
+.botb:hover {
+    border: 1px solid #868684;
+    transition: .5s;
+}
+
+/* comment edit */
+.input {
+    display: flex;
+    display: none;
+}
+
+/* profile */
+.cover {
+    background-color: #6d98f3;
+    width: 50%;
+    height: 250px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+}
+.cover img {
+    left: 5%;
+    bottom: -10%;
+    transform: translate(-0, 40%);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    border-radius: 50%;
+    width: 22%;
+    height: 50%;
+}
+.cover label {
+    position: absolute;
+    left: 25%;
+    bottom: -20%;
+}
